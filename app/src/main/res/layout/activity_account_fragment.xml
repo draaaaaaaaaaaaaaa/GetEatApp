@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:text="About Me"
+        android:textSize="40sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="218dp"
+        android:layout_height="235dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/daffa" />
+
+    <!-- <ImageView-->
+
+
+    <!-- android:id="@+id/profil"-->
+
+
+    <!-- android:layout_width="218dp"-->
+
+
+    <!-- android:layout_height="235dp"-->
+
+
+    <!-- android:layout_centerHorizontal="true"-->
+
+
+    <!-- android:layout_marginTop="180dp"-->
+
+
+    <!-- android:src="@drawable/dafaphoto" />-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:text="Nama : Daffa Ramadhan A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:text="Email : moh.daffa.ucui@gmail.com"
+        android:textSize="20sp" />
+
+</RelativeLayout>
